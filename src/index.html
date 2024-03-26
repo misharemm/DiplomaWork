@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudyBridge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/main.scss">
+</head>
+<body>
+  <header>
+    <div class="header-logo">
+      <img cd
+      src="images/logo.png" 
+      alt="page-logo"
+      class="header-logo__logo">
+    </div>
+
+    <button class="button_registration">
+      <p class="button_registration__text">РЕЄСТАРЦІЯ</p>
+    </button>
+    <button class="button_logIn">
+      <p class="button_logIn__text">ВХІД</p>
+    </button>
+  
+
+    <div class="header-icons">
+      <div class="header-icons__menu"></div>
+    </div>
+  </header>
+
+  <main>
+    <div class="maine-image">
+      <h1 class="main__title">Ласкаво просимо до StudyBridge</h1>
+      <button class="create">
+        <p class="create__text">СТВОРИТИ</p>
+      </button>
+      <button class="join">
+        <p class="join__text">ПРИЄДНАТИСЯ</p>
+      </button>
+    </div>
+  </main>
+
+  <aside class="menu">
+    <div class="menu__close-icon"></div>
+
+    <div class="menu__boxes menu__boxes-classes">Класи</div>
+    <div class="menu__boxes menu__boxes-projects">Проекти</div>
+    <div class="menu__boxes menu__boxes-points">Бали</div>
+    <div class="menu__boxes menu__boxes-calendar">Календарь</div>
+    <div class="menu__boxes menu__boxes-othre-activities">Інші активності</div>
+
+    <p class="contacts">Контакти</p>
+    <div class="contacts-icons contacts-icon-instagram"></div>
+    <div class="contacts-icons contacts-icon-facebook"></div>
+    <div class="contacts-icons contacts-icon-x"></div>
+    <div class="contacts-icons contacts-icon-whatsApp"></div>
+  </aside>
+
+  <aside class="registration">
+    <div class="registration__title">Реєстарція</div>
+
+    <form action="/action_page.php">
+      <label for="mail">Email</label><br>
+      <input
+      type="email" 
+      id="mail" 
+      name="mail" 
+      value="email"
+      ><br>
+      <label for="pas">Пароль</label><br>
+      <input 
+      type="password" 
+      id="pas" 
+      name="pas"
+      ><br>
+      <label for="name">Ім'я</label><br>
+      <input 
+      type="text" 
+      id="name" 
+      name="name"
+      ><br><br>
+      <button class="registration__send">
+        <p class="registration__send-text">Відправити</p>
+      </button>
+    </form> 
+  </aside>
+
+  <aside class="logIn">
+    <div class="logIn__title">Реєстарція</div>
+
+    <form action="/action_page.php">
+      <label for="mail">Email</label><br>
+      <input 
+      type="email" 
+      id="mail" 
+      name="mail" 
+      value="email"
+      ><br>
+      <label for="pas">Пароль</label><br>
+      <input 
+      type="password" 
+      id="pas" 
+      name="pas"
+      ><br>
+      <button class="logIn__send">
+        <p class="logIn__send-text">Відправити</p>
+      </button>
+    </form> 
+  </aside>
+</body>
+</html>

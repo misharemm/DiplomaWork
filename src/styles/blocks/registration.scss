@@ -1,0 +1,22 @@
+.button_registration {
+  display: flex;
+  margin-left: 246px;
+  margin-top: 34px;
+  background-color: $white-main-color;
+  border: 1px solid $black-main-color;
+  border-radius: 50px;
+
+  &__text {
+    font-family: inherit;
+    font-size: 18px;
+    color: $black-main-color;
+
+    &:hover {
+      color: $white-main-color;
+    }
+  }
+
+  &:hover {
+    background-color: $blue-hover-color;
+  }
+}
